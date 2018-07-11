@@ -1,0 +1,10 @@
+---
+filesystems:
+  - dev:                        '/dev/mapper/archive'
+    fstype:                     'ext4'
+mount:
+  - name:                       '/archive'
+    fstype:                     'ext4'
+    opts:                       'noatime,noauto,nodev,nosuid,noexec'
+    src:                        '/dev/mapper/archive'
+    state:                      'mounted'
