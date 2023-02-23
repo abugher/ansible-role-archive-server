@@ -8,3 +8,4 @@ mount:
     opts:                       'noatime,noauto,nodev,nosuid,noexec'
     src:                        '/dev/mapper/archive'
     state:                      'mounted'
+  - 'encrypted_storage'
