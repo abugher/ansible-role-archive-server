@@ -1,4 +1,4 @@
 ---
-- include_tasks:        '../tasks/filesystems.yml'
-- include_tasks:        '../tasks/mount.yml'
+- include_tasks:        'tasks/common/filesystems.yml'
+- include_tasks:        'tasks/common/mount.yml'
 
